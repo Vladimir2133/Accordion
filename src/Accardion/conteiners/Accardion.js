@@ -28,7 +28,6 @@ class Accardion extends React.Component {
 
   handleChangeImg = AccIndex => {
     const BackgAcc = this.state[AccIndex] === true ? "180deg" : "";
-    console.log("ggd", BackgAcc);
     return BackgAcc;
   };
 
